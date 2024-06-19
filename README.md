@@ -1,13 +1,32 @@
-# Template repo for NEXT.js | Tailwindcss | ConnectKit
+# Web3 dApp example with connect wallet using ConnectKit and NEXT.js 14
+
 
 ## Installation
 
-### 1. Install NEXT.js + Tialwindcss
-https://tailwindcss.com/docs/guides/nextjs
-
-
-### 2. Install ConnectKit
-https://docs.family.co/connectkit/getting-started#getting-started-section-1-install
 ```bash
-pnpm install connectkit wagmi viem@2.x @tanstack/react-query
+git clone https://github.com/ArnaudSene/web3-connectKit-template
+cd web3-connectKit-template
+pnpm run start
 ```
+
+
+## Context
+
+### Stack
+
+- Next.js              : 14.2.4
+- wagmi                : 2.10.2
+- viem                 : 2^
+- connectkit           : 1.8.1
+- tanstack/react-query : 5.45.1
+- tailwindcss          : 3.4.4
+
+### Network 
+
+- Harmonie blockchain `tesnet`
+
+### dApp `Alltunes`  
+
+Decentralized application to register song with ISRC on blockchain.
+It allows artists to sell and/or rent their song. 
+
