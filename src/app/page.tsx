@@ -1,7 +1,7 @@
 "use client"
 
-import { ConnectKitButton } from "connectkit";
-import Helper from "@/components/Helper";
+import { ConnectKitButton } from "connectkit"
+import Helper from "@/components/Helper"
 
 export default function Home() {
 	return (
@@ -10,5 +10,5 @@ export default function Home() {
 			<ConnectKitButton />
 			<Helper />
 		</div>
-	);
+	)
 }
