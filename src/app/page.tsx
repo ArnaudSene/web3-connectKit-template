@@ -1,14 +1,14 @@
 "use client"
 
 import { ConnectKitButton } from "connectkit";
-import Image from "next/image";
+import Helper from "@/components/Helper";
 
 export default function Home() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-
-      <ConnectKitButton />
-    </h1>
-  );
+	return (
+    	<div>
+			<h1 className="text-3xl font-bold underline"></h1>
+			<ConnectKitButton />
+			<Helper />
+		</div>
+	);
 }

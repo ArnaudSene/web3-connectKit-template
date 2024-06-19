@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} dark:bg-gray-950 bg-gray-50 dark:text-gray-50 text-gray-950`}>
         <Web3Provider>
           {children}
         </Web3Provider>
