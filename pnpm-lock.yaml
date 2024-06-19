@@ -10,15 +10,15 @@ dependencies:
     version: 5.45.1(react@18.3.1)
   connectkit:
     specifier: ^1.8.1
-    version: 1.8.1(@babel/core@7.24.7)(@tanstack/react-query@5.45.1)(react-dom@18.3.1)(react-is@16.13.1)(react@18.3.1)(viem@2.15.1)(wagmi@2.10.2)
+    version: 1.8.1(@babel/core@7.24.7)(@tanstack/react-query@5.45.1)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)(viem@2.15.1)(wagmi@2.10.2)
   next:
     specifier: 14.2.4
     version: 14.2.4(@babel/core@7.24.7)(react-dom@18.3.1)(react@18.3.1)
   react:
-    specifier: ^18
+    specifier: ^18.3.1
     version: 18.3.1
   react-dom:
-    specifier: ^18
+    specifier: ^18.3.1
     version: 18.3.1(react@18.3.1)
   viem:
     specifier: 2.x
@@ -4045,7 +4045,7 @@ packages:
       '@babel/plugin-syntax-jsx': 7.24.7(@babel/core@7.24.7)
       lodash: 4.17.21
       picomatch: 2.3.1
-      styled-components: 5.3.11(@babel/core@7.24.7)(react-dom@18.3.1)(react-is@16.13.1)(react@18.3.1)
+      styled-components: 5.3.11(@babel/core@7.24.7)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -4427,7 +4427,7 @@ packages:
       - supports-color
     dev: false
 
-  /connectkit@1.8.1(@babel/core@7.24.7)(@tanstack/react-query@5.45.1)(react-dom@18.3.1)(react-is@16.13.1)(react@18.3.1)(viem@2.15.1)(wagmi@2.10.2):
+  /connectkit@1.8.1(@babel/core@7.24.7)(@tanstack/react-query@5.45.1)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)(viem@2.15.1)(wagmi@2.10.2):
     resolution: {integrity: sha512-Zg/oInF2R3/OpXwN+aVgkX2FwWMG5daqdeDZ//u334mwE2mqsr15Gd3D75ThCqMMi70bDJln4+eT7YufiriKIw==}
     engines: {node: '>=12.4'}
     peerDependencies:
@@ -4447,7 +4447,7 @@ packages:
       react-transition-state: 1.1.5(react-dom@18.3.1)(react@18.3.1)
       react-use-measure: 2.1.1(react-dom@18.3.1)(react@18.3.1)
       resize-observer-polyfill: 1.5.1
-      styled-components: 5.3.11(@babel/core@7.24.7)(react-dom@18.3.1)(react-is@16.13.1)(react@18.3.1)
+      styled-components: 5.3.11(@babel/core@7.24.7)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
       viem: 2.15.1(typescript@5.4.5)
       wagmi: 2.10.2(@tanstack/react-query@5.45.1)(@types/react@18.3.3)(react-dom@18.3.1)(react-i18next@13.5.0)(react-native@0.74.2)(react@18.3.1)(typescript@5.4.5)(viem@2.15.1)
     transitivePeerDependencies:
@@ -8009,7 +8009,7 @@ packages:
     dependencies:
       object-assign: 4.1.1
       react: 18.3.1
-      react-is: 16.13.1
+      react-is: 18.3.1
     dev: false
 
   /react-transition-state@1.1.5(react-dom@18.3.1)(react@18.3.1):
@@ -8702,7 +8702,7 @@ packages:
       tslib: 2.6.3
     dev: false
 
-  /styled-components@5.3.11(@babel/core@7.24.7)(react-dom@18.3.1)(react-is@16.13.1)(react@18.3.1):
+  /styled-components@5.3.11(@babel/core@7.24.7)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-uuzIIfnVkagcVHv9nE0VPlHPSCmXIUGKfJ42LNjxCCTDTL5sgnJ8Z7GZBq0EnLYGln77tPpEpExt2+qa+cZqSw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -8720,7 +8720,7 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-is: 16.13.1
+      react-is: 18.3.1
       shallowequal: 1.1.0
       supports-color: 5.5.0
     transitivePeerDependencies:
