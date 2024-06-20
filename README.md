@@ -16,12 +16,12 @@ ABI type must be declared with `as const`
 ```typescript
 const my_abi = [...] as const
 ```
-Check this for an example : [example ABI setup](https://github.com/ArnaudSene/web3-connectKit-template/blob/5-example-with-apps/constants/index.ts)
+Check this example : [example ABI setup](https://github.com/ArnaudSene/web3-connectKit-template/blob/5-example-with-apps/constants/index.ts)
 
 
 ### Add your network(s) 
 Create the file in `config/network.ts`
-Check the branch for an example [example network setup](https://github.com/ArnaudSene/web3-connectKit-template/blob/5-example-with-apps/config/network.ts)
+Check this example [example network setup](https://github.com/ArnaudSene/web3-connectKit-template/blob/5-example-with-apps/config/network.ts)
 
 
 ### Environment files
